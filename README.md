@@ -22,7 +22,7 @@ The simulation shows a drone starting from a challenging location and intelligen
    ```bash
    python3 main.py
    ```
-3. View the generated `simulation.gif` and `simulation.mp4` for the full planning process.
+3. View the generated `simulation.gif` for the full planning process.
 
 ## Files
 - `main.py`: Main entry point, runs the simulation and saves the animation.
@@ -31,6 +31,4 @@ The simulation shows a drone starting from a challenging location and intelligen
 - `simulation.gif`/`simulation.mp4`: Animation of the planning process.
 - `utils.py`: Utility functions (optional).
 
----
-
-Feel free to use, modify, or extend this project for your own drone path planning and robotics research!
+ 
