@@ -1,14 +1,14 @@
-# Drone Path Planning and Obstacle Avoidance (RRT*)
+# 🚁 Drone Path Planning and Dynamic Obstacle Avoidance using RRT*
 
-This project demonstrates dynamic obstacle avoidance and optimal path planning for a drone using the RRT* (Rapidly-exploring Random Tree Star) algorithm in a 2D grid environment. The simulation visualizes the drone searching for a path from a challenging start point to a distant goal, navigating through complex, maze-like obstacles.
+This project simulates autonomous drone navigation in a 2D environment using the RRT* (Rapidly-exploring Random Tree Star) algorithm — a powerful method for optimal path planning in dynamic, cluttered spaces.
+The simulation shows a drone starting from a challenging location and intelligently navigating toward a distant goal while avoiding complex, maze-like obstacles.
 
-## Features
+## ✨ Key Features
 - **RRT* Algorithm**: Efficiently finds an optimal path from start to goal while avoiding obstacles.
-- **Complex Environment**: Includes multiple walls, block clusters, and maze-like structures for realistic path planning challenges.
-- **Drone Visualization**: The drone is animated as a blue triangle, moving along the planned path.
-- **Beautiful Simulation**: The environment is rendered with a modern, visually appealing style.
-- **Full Process Animation**: The entire path planning process is saved as a GIF and MP4 video, showing the tree growth and final path.
-
+- **🔄 Optimal Path Planning with RRT***: Finds efficient paths while continuously refining them as the tree expands.
+- **🧱 Challenging Environments**: Includes clusters of obstacles, walls, and maze structures to test real-world feasibility.
+- **🚁 Beautiful Simulation**: The environment is rendered with a modern, visually appealing style.
+- **🎞 Full Visualization**: Watch the entire planning process unfold — from tree growth to path execution — in a rendered GIF
 ## Simulation Example
 
 ![Simulation](simulation.gif)
